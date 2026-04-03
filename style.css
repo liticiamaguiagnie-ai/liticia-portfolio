@@ -74,7 +74,7 @@ a:hover{
     background-color: white;
 }
 nav{
-    background-color: #333;
+    background-color: #022d1f;
     padding: 10px;
 }
 nav a{
@@ -118,7 +118,7 @@ main{
     border-radius: 8px;
 }
 footer{
-    background-color: #333;
+    background-color: #022d1f;
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -134,4 +134,34 @@ footer{
 .img {
     max-width: 100%;
     height: auto;
+}
+.service-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.index-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+carousel {
+    display: flex;
+    overflow-x: auto;
+    text-align: center;
+    line-height: 1.6;
+    scroll-snap-type: x mandatory;
+}
+ul li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+i {
+    font-style: italic;
+    color: #034d34;
 }
