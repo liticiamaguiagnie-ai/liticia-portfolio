@@ -168,13 +168,13 @@ i {
 .share-box {
     margin-top: 30px;
     padding: 15px;
-    border-top: 2px solid #6b9e45;
+    border-top: 2px solid #eee;
 }
 .share-box a, .share-box {
     padding: 8px 12px;
     border-radius: 5px;
     margin-top: 20px;
-    background-color: #2d5016;
+    background-color: #2196f3;
     color: white;
     text-decoration: none;
     border: none;
@@ -183,4 +183,37 @@ i {
 }
 .share-box a:hover, .share-box button:hover {
     background-color: #1565c0;
+}
+.hero {
+    position: relative;
+    background-image: url('../images/Liticia-Maguiagnie.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
