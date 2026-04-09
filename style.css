@@ -186,7 +186,7 @@ i {
 }
 .hero {
     position: relative;
-    background-image: url('../images/Liticia-Maguiagnie.png');
+    background-image: url('Liticia-Maguiagnie.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
